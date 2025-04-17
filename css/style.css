@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    text-align: center;
+}
+
+.caixa {
+    display: inline-block;
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+h1{
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+p{
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(224, 42, 42);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
